@@ -18,8 +18,8 @@ cp -r directory1 /path/to/destination   # Recursively copy directory1 to /path/t
 cp -i file1.txt file2.txt   # Interactive mode: prompt before overwriting an existing file
 ```
 
-## mv (Move)
-The mv command is used to move or rename files and directories.
+## `mv` (Move)
+The `mv` command is used to move or rename files and directories.
 
 ### Syntax:
 ```bash
