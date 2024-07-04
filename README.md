@@ -32,7 +32,7 @@ Welcome to the Linux 101 repository! This repository contains resources and mate
 
 - Installing Linux (or Live CD/USB)
 - Basic Command Line Usage
-- Filesystem Hierarchy
+- [Filesystem Hierarchy](src/filesystem-hierarchy.md)
 
 ---
 
