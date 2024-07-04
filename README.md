@@ -38,16 +38,16 @@ Welcome to the Linux 101 repository! This repository contains resources and mate
 
 ## Basic Commands
 
-- Navigation (cd, ls, pwd)
-- File Operations (cp, mv, rm, touch)
-- Working with Directories (mkdir, rmdir)
-- Text Editing (nano, vim)
+- [Navigation (cd, ls, pwd)](src/navigation.md)
+- [File Operations (cp, mv, rm, touch)](src/file-operations.md)
+- [Working with Directories (mkdir, rmdir)](src/working-with-directories.md)
+- [Text Editing (nano, vim)](src/text-editing.md)
 
 ---
 
 ## File Permissions
 
-- Understanding Permissions (chmod, chown)
+- [Understanding Permissions (chmod, chown)](src/understanding-permissions.md)
 - Special Permissions (setuid, setgid, sticky bit)
 
 ---
@@ -56,14 +56,14 @@ Welcome to the Linux 101 repository! This repository contains resources and mate
 
 - Package Management (apt, yum)
 - User Management (adduser, usermod, passwd)
-- Process Management (ps, top, kill)
+- [Process Management (ps, top, kill)](src/process-management.md)
 
 ---
 
 ## Networking
 
-- Basic Networking Commands (ping, ifconfig, ip)
-- SSH and Remote Access
+- [Basic Networking Commands (ping, ifconfig, ip)]
+- [SSH and Remote Access](src/ssh-and-remote-access.md)
 - Firewall Management (iptables)
 
 ---
