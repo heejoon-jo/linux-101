@@ -69,18 +69,24 @@ install.packages("energy")
 Add EPEL repo
 ```bash
 sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+```
+
 Specify R version
 ```bash
 export R_VERSION=4.1.3
+```
 Download R precompiled binary
 ```bash
 curl -O https://cdn.rstudio.com/r/centos-7/pkgs/R-${R_VERSION}-1-1.x86_64.rpm
+```
 Install the specified R
 ```bash
 sudo yum install R-${R_VERSION}-1-1.x86_64.rpm
+```
 Verify the installed R
 ```bash
 /opt/R/${R_VERSION}/bin/R --version
+```
 Optional - add R path to PATH variable
 ```bash
 export PATH=/opt/R/${R_VERSION}/bin/:$PATH
