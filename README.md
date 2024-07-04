@@ -85,6 +85,7 @@ Welcome to the Linux 101 repository! This repository contains resources and mate
 ## etc
 
 - [R (install packages)](src/R.md)
+- [Parallel processing in R](src/R_parallel_processing.md)
 
 ---
 
