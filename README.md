@@ -82,6 +82,10 @@ Welcome to the Linux 101 repository! This repository contains resources and mate
 - System Monitoring (sar, vmstat)
 - Introduction to Shell Programming
 
+## etc
+
+- [R (install packages)](src/R.md)
+
 ---
 
 ## Resources
