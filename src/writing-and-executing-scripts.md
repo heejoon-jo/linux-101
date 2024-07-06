@@ -14,26 +14,26 @@ A simple shell script typically consists of the following elements:
 #!/bin/bash
 ```
 
-# Script comments and documentation
+### Script comments and documentation
 
-# Variable declarations
+#### Variable declarations
 ```
 VARIABLE_NAME="value"
 ```
 
-# Commands and logic
+#### Commands and logic
 ```
 echo "Hello, world!"
 ```
 
-# Reading input
+#### Reading input
 ```
 echo "Enter your name:"
 read NAME
 echo "Hello, $NAME!"
 ```
 
-# Using control structures
+#### Using control structures
 ```
 if [ condition ]; then
     # Commands if condition is true
@@ -41,29 +41,30 @@ else
     # Commands if condition is false
 fi
 ```
-# Using loops
+
+#### Using loops
 ```
 for i in {1..5}; do
     echo "Iteration $i"
 done
 ```
 
-# Function definition (covered in later section)
+#### Function definition (covered in later section)
 ```
 my_function() {
     echo "Function called"
 }
 ```
 
-# Calling functions
+#### Calling functions
 ```
 my_function
 ```
  
-# Exit status
+#### Exit status
 exit 0
 
-## Shebang (`#!`) Line
+#### Shebang (`#!`) Line
 The `#!/bin/bash` at the beginning of a script tells the system which shell to use to execute the script. It's called a shebang or hashbang.
 
 ### Comments
