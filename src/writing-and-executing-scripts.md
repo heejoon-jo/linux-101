@@ -28,12 +28,13 @@ read NAME
 echo "Hello, $NAME!"
 
 # Using control structures
+```
 if [ condition ]; then
     # Commands if condition is true
 else
     # Commands if condition is false
 fi
-
+```
 # Using loops
 for i in {1..5}; do
     echo "Iteration $i"
