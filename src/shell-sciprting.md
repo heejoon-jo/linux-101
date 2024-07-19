@@ -22,28 +22,29 @@ Example:
 #!/bin/bash
 ```
 
-Comments
+### Comments
 Use # for single-line comments:
 ```bash
 # This is a comment
 ```
 
-Variables
+### Variables
 Declare and use variables:
 ```bash
 name="John"
 echo "Hello, $name!"
 ```
 
-Command Substitution
+### Command Substitution
 Use command output as a value:
 ```bash
 current_date=$(date +%Y-%m-%d)
 echo "Today is $current_date"
 ```
 
-Control Structures
-If-Else Statements
+### Control Structures
+
+### If-Else Statements
 ```bash
 if [ "$1" -gt 10 ]; then
     echo "Number is greater than 10"
@@ -54,8 +55,9 @@ else
 fi
 ```
 
-Loops
-For Loop
+### Loops
+
+### For Loop
 ```bash
 for i in {1..5}
 do
@@ -63,7 +65,7 @@ do
 done
 ```
 
-While Loop
+### While Loop
 ```bash
 count=1
 while [ $count -le 5 ]
@@ -73,7 +75,7 @@ do
 done
 ```
 
-Functions
+### Functions
 Define and use functions:
 ```bash
 greet() {
@@ -83,7 +85,7 @@ greet() {
 greet "Alice"
 ```
 
-Input and Output
+### Input and Output
 Command-line Arguments
 Access command-line arguments:
 ```bash
@@ -92,14 +94,14 @@ echo "First argument: $1"
 echo "Second argument: $2"
 ```
 
-Reading User Input
+### Reading User Input
 ```bash
 echo "Enter your name:"
 read name
 echo "Hello, $name!"
 ```
 
-File Operations
+### File Operations
 Reading Files
 ```bash
 while IFS= read -r line
@@ -108,13 +110,14 @@ do
 done < "input.txt"
 ```
 
-Writing to Files
+### Writing to Files
 ```bash
 echo "This is a new line" >> output.txt
 ```
 
-Practical Examples
-Example 1: Backup Script
+### Practical Examples
+
+### Example 1: Backup Script
 ```bash
 #!/bin/bash
 
@@ -127,7 +130,7 @@ tar -czf "$backup_dir/backup_$date.tar.gz" "$source_dir"
 echo "Backup created: backup_$date.tar.gz"
 ```
 
-Example 2: System Information Script
+### Example 2: System Information Script
 ```bash
 #!/bin/bash
 
@@ -141,14 +144,14 @@ echo "Memory: $(free -h | awk '/^Mem:/ {print $2}')"
 echo "Disk Usage: $(df -h / | awk '/\// {print $5}')"
 ```
 
-Best Practices
+## Best Practices
 - Use meaningful variable names
 - Comment your code
 - Use proper indentation
 - Test your scripts thoroughly
 - Use shellcheck for linting
 
-Conclusion
+## Conclusion
 - Recap of key concepts
 - Encourage further exploration and practice
 - Provide resources for advanced topics
