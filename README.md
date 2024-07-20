@@ -70,9 +70,8 @@ Welcome to the Linux 101 repository! This repository contains resources and mate
 
 ## Shell Scripting Basics
 
-- Writing and Executing Scripts
-- Variables and Control Structures
-- Functions
+- [Writing and Executing Scripts](src/writing-and-executing-scripts.md)
+- [Intro to Shell scripting](src/shell-scripting.md)
 
 ---
 
