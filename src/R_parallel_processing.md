@@ -12,15 +12,34 @@ library(doParallel)
 numCores <- 32
 registerDoParallel(numCores)  # use multicore, set to the number of our cores
 
-rnorm.out <- foreach (i=1:10000) %dopar% {
-  rnorm(10e7,1,1)
-}
+## single instance
+start.time <- Sys.time()
+rnorm.out <- rnorm(10e6,1,1)
+end.time <- Sys.time()
+time.taken <- end.time - start.time
+time.taken
 
-rnorm.out.wo.parallel <- list()
+## serialization
+rnorm.out.w.serial <- list()
 
-for (i in 1:10000){
-	rnorm.out.wo.parallel[[i]] <- rnorm(10e7,1,1)
+start.time <- Sys.time()
+for (i in 1:80){
+rnorm.out.w.serial[[i]] <- rnorm(10e6,1,1)
 }
+end.time <- Sys.time()
+time.taken <- end.time - start.time
+time.taken
+
+## parallelization
+rnorm.out.w.parallel <- list()
+
+start.time <- Sys.time()
+rnorm.out.w.parallel <- foreach (i=1:80) %dopar% {
+  rnorm(10e6,1,1)
+}
+end.time <- Sys.time()
+time.taken <- end.time - start.time
+time.taken
 ```
 
 ## example 2
