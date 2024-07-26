@@ -62,7 +62,7 @@ Welcome to the Linux 101 repository! This repository contains resources and mate
 
 ## Networking
 
-- [Basic Networking Commands (ping, ifconfig, ip)]
+- [Basic Networking Commands (ping, ifconfig, ip)](src/basic_networking_commands.md)
 - [SSH and Remote Access](src/ssh-and-remote-access.md)
 - Firewall Management (iptables)
 
@@ -85,6 +85,7 @@ Welcome to the Linux 101 repository! This repository contains resources and mate
 
 - [R (install packages)](src/R.md)
 - [Parallel processing in R](src/R_parallel_processing.md)
+- [Parallel processing](src/parallel_processing.md)
 
 ---
 
