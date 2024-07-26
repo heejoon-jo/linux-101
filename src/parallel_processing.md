@@ -1,5 +1,5 @@
 
-## script to run script in parallel
+## script to run scripts in parallel
 
 ```bash
 #! /bin/bash
