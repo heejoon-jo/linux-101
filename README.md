@@ -62,7 +62,7 @@ Welcome to the Linux 101 repository! This repository contains resources and mate
 
 ## Networking
 
-- [Basic Networking Commands (ping, ifconfig, ip)](src/basic_networking_commands.md)
+- [Basic Networking Commands (ping, ifconfig, ip)](src/basic-networking-commands.md)
 - [SSH and Remote Access](src/ssh-and-remote-access.md)
 - Firewall Management (iptables)
 
